@@ -21,11 +21,12 @@ Troubleshooting:
 ----------------
 Please install the correct drivers specific to your operating system:
 For Centos:
+```code
 $ wget https://chromedriver.storage.googleapis.com/2.40/chromedriver_linux64.zip
 $ unzip chromedriver_linux64.zip
 $ chromedriver --version
 ChromeDriver 2.40.565383
-
+```
 You also need to install Google Chrome on Centos:
 https://intoli.com/blog/installing-google-chrome-on-centos/
 I chose the 'The Hard Way' option in the above page.
